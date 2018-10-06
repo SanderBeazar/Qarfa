@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background=" #aecb53"
+    android:elevation="4dp"
+    android:minHeight="23dp"
+    android:title="Qarfa"
+    android:visibility="visible">
+
+    <Button
+        android:id="@+id/showList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="start"
+        android:background="@drawable/ic_view_list_black_24dp"
+        android:icon="@drawable/ic_view_list_black_24dp"
+        android:textColor="#FFF"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/editSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:typeface="monospace"
+        android:layout_margin="8dp"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:padding="8dp"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:text="Qarfa"
+        android:textAppearance="@android:style/TextAppearance.Theme"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="@android:dimen/notification_large_icon_height"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="right"
+        android:background="@drawable/ic_search_black_24dp"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:textColor="#FFF"
+        android:textSize="12sp" />
+
+</android.support.v7.widget.Toolbar>
